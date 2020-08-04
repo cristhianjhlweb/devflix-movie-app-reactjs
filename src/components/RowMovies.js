@@ -8,7 +8,7 @@ const RowMovies = ({type, busqueda}) => {
   useEffect(() => {
     const requestAPI = async () => {
 
-        const API_KEY = "6693614f"
+        const API_KEY = "Ingresar la API KEY que te proporcina omdb"
         const URL = `https://www.omdbapi.com/?s=${busqueda}&type=${type ? type : 'movie'}&apikey=${API_KEY}`
 
         const request = await fetch(URL)

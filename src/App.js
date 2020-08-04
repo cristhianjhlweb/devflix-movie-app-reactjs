@@ -14,7 +14,7 @@ function App() {
     const requestAPI = async () => {
       if(busqueda === '') return
 
-      const API_KEY = "6693614f"
+      const API_KEY = "Ingresar la API KEY que te proporcina omdb"
       const URL = `https://www.omdbapi.com/?t=${busqueda}&apikey=${API_KEY}`
       const response = await fetch(URL)
       const movies = await response.json()
