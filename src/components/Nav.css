@@ -1,0 +1,57 @@
+.site-nav
+{
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  flex: 1;
+  z-index: 100;
+}
+form
+{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  flex: 1;
+}
+.form-group
+{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+}
+
+.form-group .searchInput
+{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+.form-group .btn
+{
+  padding: 10px;
+  background-color: #00eda4;
+  border: none;
+  color: #111;
+}
+
+.title
+{
+  color: #00eda4;
+  margin: 0;
+}
+
+.text-white
+{
+  color: white;
+  font-size: 13px;
+}

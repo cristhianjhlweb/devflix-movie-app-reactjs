@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app
+{
+  background-color: #111;
+}
+
+.site-footer
+{
+  padding: 20px;
+}
+
+.site-footer p {
+  margin: 0;
+  color: white;
+}
+
+.site-footer p a {
+  color: #00eda4;
+  text-decoration: none;
+}
